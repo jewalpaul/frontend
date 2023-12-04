@@ -1,0 +1,20 @@
+body {
+    background-color: #000000;
+    color: #ffffff; 
+  }
+  .ai-intro {
+text-align: center; /* Center the text horizontally */
+margin: auto; /* Center the div in the available space */
+max-width: 800px; /* Set a max-width for the content */
+padding: 20px; /* Add some padding around the text */
+font-size: 1.2em; /* Increase the font size for better readability */
+font-style:italic;
+line-height: 1.6; /* Increase the line height for better readability */
+}
+.ai-intro:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-color: #138496; 
+    
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15); 
+    transition: all 0.2s ease-in-out; 
+}
